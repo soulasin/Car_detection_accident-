@@ -14,8 +14,8 @@ report_file = open("accident_report.txt", "w")
 frame_count = 0
 
 # Telegram Bot settings
-TELEGRAM_BOT_TOKEN = "7924575317:AAHdcVLqMIcaY53c5wm3eSSEchbeJ0xFb30"  # Token 
-TELEGRAM_CHAT_ID = "7734615619"  # Chat ID  
+TELEGRAM_BOT_TOKEN = ""  # Token 
+TELEGRAM_CHAT_ID = "l"  # Chat ID  
 def send_telegram_message(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"  # sendMessage
     payload = {
